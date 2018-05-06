@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <StartupObject></StartupObject>
+	  <LangVersion>latest</LangVersion>
+	  <Version>0.0.1</Version>
+	  <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+	  <Copyright>Roland Barbe</Copyright>
+	  <Authors>Roland Barbe</Authors>
+	  <Company />
+	  <PackageProjectUrl>https://github.com/rbarbe/DiscordOpenDMByUserId</PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/rbarbe/DiscordOpenDMByUserId</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DiscordApi" Version="0.0.7" />
+    <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="2.2.2" />
+  </ItemGroup>
+
+</Project>
